@@ -1,2 +1,2 @@
 # MSC-WebGroup
-##This repository is created for web practice by HIT-MSC.
+This repository is created for web practice by HIT-MSC.
