@@ -1,45 +1,15 @@
-body
+#a
 {
-	background-color: #99b;
+	background-color: #008;
+	color: white;
 	text-align: center;
 }
-h1,h2
+#b
 {
-	font-family: Times New Roman;
-}
-div
-{
-	background-color: #337;
-	margin: 0 400px;
-}
-p
-{
+	background-color: #800;
 	color: white;
-}
-#story
-{
-	background-color: green;
-}
-[value*=按钮]
-{
-	background-color: #D09090;
-	color: white;
-}
-li
-{
-	color: #EEE;
-	margin-left: 650px;
-	text-align: left;
-}
-li ul
-{
-	list-style-type: square;
-}
-span
-{
-	color: orange;
-}
-#truth span
-{
-	color: #00FF11;
+	text-align: center;
+	position: absolute;
+	margin-left: 400px;
+	left: 200px;
 }
