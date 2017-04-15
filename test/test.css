@@ -1,0 +1,83 @@
+body
+{
+	background-color: #99b;
+	text-align: center;
+}
+h1,h2
+{
+	font-family: Times New Roman;
+}
+div
+{
+	background-color: #75C;
+}
+[class*=a]
+{
+	font-size: 20px;
+}
+#div1,#div2
+{
+	margin: 0% 10%;
+}
+#story
+{
+	background-color: green;
+}
+[value|=wonderful]
+{
+	background-color: #D09090;
+	color: white;
+}
+li
+{
+	color: #EEE;
+	margin-left: 650px;
+	text-align: left;
+}
+ul
+{
+	list-style-type: square;
+}
+span
+{
+	color: orange;
+}
+#truth span
+{
+	color: #00FF11;
+}
+#a
+{
+	background-color: #BB0000;
+	color: white;
+	margin: 0 300px;
+	padding: 10px 0px;
+}
+#b
+{
+	color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-color: purple;
+	background-color: #00FF99;
+	margin: 10px 0px;
+	padding: 0px;
+}
+[id~=lap]
+{
+	font-size: 50px;
+}
+#c
+{
+	color: black;
+	background-color: white;
+	margin: 30px;
+}
+div p
+{
+	vertical-align: center;
+}
+.button
+{
+	font-size: 30px;
+}
