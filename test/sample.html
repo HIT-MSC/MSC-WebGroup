@@ -2,42 +2,77 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Sample HTML Document</title>
+	<title>blog</title>
 	<link rel="stylesheet" href="sample.css">
 </head>
 <body>
-
-	<div id="a">
-		<p>
-			This is a test.<br/>
-			Hello world.
-		</p>
+	<div id="title"><p>博客</p></div>
+	<div id="bardiv">
+	<ul id="bar">
+		<li><a href="sample.html">主页</a></li>
+		<li><a href="log.html">日志</a></li>
+		<li><a href="album.html">相册</a></li>
+	</ul>
 	</div>
-	<div id="b">
-		<p>
-			This is a test.<br/>
-			Hello world.
-		</p>
-		<p>
-			This is a test.<br/>
-			Hello world.
-		</p>
-		<p>
-			This is a test.<br/>
-			Hello world.
-		</p>
-		<p>
-			This is a test.<br/>
-			Hello world.
-		</p>
-		<p>
-			This is a test.<br/>
-			Hello world.
-		</p>
-		<p>
-			This is a test.<br/>
-			Hello world.
-		</p>
+	<br/>
+	<div id="body">
+		<div id="list">
+			<ul>
+				<li>
+					<div class="log">
+						<h2>
+							日志1
+						</h2>
+						<p>
+							这里是日志内容
+						</p>
+					</div>
+				</li>
+				<hr>
+				<li>
+					<div class="log">
+						<h2>
+							日志2
+						</h2>
+						<p>
+							日志内容
+						</p>
+					</div>
+				</li>
+				<hr>
+				<li>
+					<div class="log">
+						<h2>
+							日志3
+						</h2>
+						<p>
+							日志内容
+						</p>
+					</div>
+				</li>
+				<hr>
+				<li>
+					<div class="log">
+						<h2>
+							日志4
+						</h2>
+						<p>
+							日志内容
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="news">
+			<h1 style="padding: 0 20px;">动态</h1>
+			<ul>
+				<li><a href="">新动态1</a></li>
+				<li><a href="">新动态2</a></li>
+				<li><a href="">新动态3</a></li>
+				<li><a href="">新动态4</a></li>
+				<li><a href="">新动态5</a></li>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>
